@@ -1,3 +1,5 @@
 <template>
-  <h1>career</h1>
+  <div>
+    <h1>career</h1>
+  </div>
 </template>
