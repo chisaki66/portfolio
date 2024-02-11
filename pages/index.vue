@@ -2,20 +2,34 @@
   <div class="main">
     <h1 class="title">Profile</h1>
     <div class="body">
-      <img src="../public/images/profile pic.jpg">
+      <img class="body__profile-img" src="../public/images/profile pic.jpg">
       <div>
         <div class="body__block">
           <div class="body__subtitle">Name</div>
           <p>Chisaki Ibe</p>
         </div>
         <div class="body__block">
-          <div class="body__subtitle">Skill</div>
-          <p></p>
+          <div class="body__subtitle">Skilled</div>
+          <p>JavaScript, Vue.js, Nuxt.js, TypeScript, Node.js, Jest, Vue Test Utils, PHP, GraphQL, HTML5, CSS3, and SASS</p>
         </div>        
         <div class="body__block">
           <div class="body__subtitle">Introduction</div>
-          <p></p>
-        </div> 
+          <p>フロントエンドエンジニアとして 3年の実務経験があり、主に Vue.js/Nuxt.js を得意としています。<br>現在はプライベートで React でアプリを作ってみたりするなどして、フロントエンドエンジニアとして様々なことに挑戦しています。</p>
+        </div>
+        <div class="body__block">
+          <div class="body__subtitle">Links</div>
+          <ul class="body__block--links">
+            <li>
+              <a href="https://github.com/chisaki66" target="_blank">GitHub</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/chisaki-ibe-91494b239/" target="_blank">LinkedIn</a>
+            </li>
+            <li>
+              <a href="https://www.wantedly.com/id/chisaki0606" target="_blank">Wantedly</a>
+            </li>
+          </ul>
+        </div>        
       </div>
     </div>
   </div>
@@ -44,15 +58,26 @@
     p {
       margin-top: 8px;
     }
+
+    &--links {
+      li {
+        margin-top: 6px;
+        list-style: none; 
+      }
+
+      a {
+        text-decoration: none;       
+      }      
+    }
   }
   
-  img {
+  &__profile-img {
     width: 300px;
   }
 
   &__subtitle {
     padding-left: 0.5em;
-    border-left: solid 3px #88d1e7;
+    border-left: solid 4px #88d1e7;
   }
 }
 </style>
