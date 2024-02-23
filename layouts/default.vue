@@ -18,8 +18,12 @@
         </ul>
       </nav>
       <nav class="sidebar__menu">
-        <div class="sidebar__logo">Chisaki's<br>portfolio</div>
-        <ul class="sidebar__menu-list">
+        <div class="sidebar__logo">
+          <NuxtLink class="sidebar__logo-text" to="/">
+            Chisaki's<br>portfolio
+          </NuxtLink>          
+        </div>
+        <ul>
           <li>
             <NuxtLink class="sidebar__text-link" to="/">profile</NuxtLink>
           </li>
@@ -82,31 +86,46 @@
 
   &__menu {
     width: 200px;
-    padding: 40px;
     box-sizing: border-box;
     background-color: #88d1e7;
 
     ul {
       list-style: none;
-      margin-top: 60px;
+      padding-top: 60px;
 
       li {
         margin-bottom: 6px;
+      }
+
+      li:hover {
+        background-color: #93ddf4;
       }
     }
   }
 
   &__logo {
+    padding: 40px 40px 0;
+  }
+
+  &__logo-text {
+    text-decoration: none;
     color: #F9F9F9;
     font-size: 24px;
+    line-height: 1.2em;
     text-shadow: 1px 1px 2px #00858d;
+  }
+
+  &__logo-text:hover {
+    text-shadow: 2px 2px 4px #00858d;
   }
 
   &__text-link {
     text-decoration: none;
     color: #F9F9F9;
     font-size: 20px;
+    padding: 0 40px;
     text-shadow: 1px 1px 2px #00858d;
+    display: block;
   }
 }
 </style>
