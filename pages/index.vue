@@ -2,7 +2,7 @@
   <div class="main">
     <h1 class="title">Profile</h1>
     <div class="body">
-      <img class="body__profile-img" src="../public/images/profile pic.jpg">
+      <img class="body__profile-img" src="../public/images/profile-pic.jpg">
       <div>
         <div class="body__block">
           <div class="body__subtitle">Name</div>
