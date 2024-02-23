@@ -26,6 +26,9 @@
           <li>
             <NuxtLink class="sidebar__text-link" to="/career">career</NuxtLink>
           </li>
+          <li>
+            <NuxtLink class="sidebar__text-link" to="/app">app</NuxtLink>
+          </li>          
         </ul>
       </nav>
     </div>

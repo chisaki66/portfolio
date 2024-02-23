@@ -10,7 +10,7 @@
         </div>
         <div class="body__block">
           <div class="body__subtitle">Skilled</div>
-          <p>JavaScript, Vue.js, Nuxt.js, TypeScript, Node.js, Jest, Vue Test Utils, PHP, GraphQL, HTML5, CSS3, and SASS</p>
+          <p>JavaScript / React.js / Vue.js / Next.js / Nuxt.js / TypeScript / Node.js / Jest / Vue Test Utils / PHP / GraphQL / HTML5 / CSS3 and SASS</p>
         </div>        
         <div class="body__block">
           <div class="body__subtitle">Introduction</div>
