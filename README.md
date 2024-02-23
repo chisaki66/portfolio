@@ -1,75 +1,12 @@
-# Nuxt 3 Minimal Starter
+# portfolio
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is my portfolio.
 
-## Setup
+<img width="600px" alt="portfolio" src="https://github.com/chisaki66/portfolio/assets/62781357/1909e965-d7bc-4f2d-b881-b24a3020f06c">
 
-Make sure to install the dependencies:
+<br>[Portfolio Link](https://www.chisaki-ibe.com/)
 
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Channels:
+- profile ・・・ 自己紹介文を掲載しています
+- career ・・・ これまでの経歴を掲載しています
+- app ・・・ 作成したアプリを掲載しています
