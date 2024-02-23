@@ -5,7 +5,7 @@
       <div>
         <div class="body__block">
           <div class="body__subtitle">弁護士ドットコム株式会社</div>
-          <img class="body__site-img" src="../public/images/cloudsign.png" alt="">
+          <img class="body__site-img" src="./images/cloudsign.png" alt="">
           <div class="body__text">
             <p>Dec 2022 to Feb 2023</p>
             <p>JavaScript / Vue.js / Nuxt.js / TypeScript / Node.js / Jest / Vue Test Utils</p>
@@ -17,7 +17,7 @@
         </div>
         <div class="body__block">
           <div class="body__subtitle">Retty Inc.</div>
-          <img class="body__site-img" src="../public/images/retty.png" alt="">
+          <img class="body__site-img" src="./images/retty.png" alt="">
           <div class="body__text">
             <p>Apr 2021 to Dec 2022</p>
             <p>JavaScript / Vue.js / Nuxt.js / TypeScript / Node.js / Jest / Vue Test Utils / PHP / GraphQL</p>
