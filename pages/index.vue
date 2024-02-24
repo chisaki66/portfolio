@@ -35,7 +35,7 @@
   </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .main {
   width: 100%;
   height: 100vh;
@@ -78,6 +78,7 @@
   &__subtitle {
     padding-left: 0.5em;
     border-left: solid 4px #88d1e7;
+    font-size: 20px;
   }
 }
 </style>
