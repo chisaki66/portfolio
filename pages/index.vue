@@ -10,11 +10,14 @@
         </div>
         <div class="body__block">
           <div class="body__subtitle">Skilled</div>
-          <p>JavaScript / React.js / Vue.js / Next.js / Nuxt.js / TypeScript / Node.js / Jest / Vue Test Utils / PHP / GraphQL / HTML5 / CSS3 and SASS</p>
+          <p>JavaScript / React.js / Vue.js / Nuxt.js / TypeScript / Node.js / Jest / Vue Test Utils / PHP / GraphQL / HTML5 / CSS3 and SASS</p>
         </div>        
         <div class="body__block">
           <div class="body__subtitle">Introduction</div>
-          <p>フロントエンドエンジニアとして 3年の実務経験があり、主に Vue.js/Nuxt.js を得意としています。<br>現在はプライベートで React でアプリを作ってみたりするなどして、フロントエンドエンジニアとして様々なことに挑戦しています。</p>
+          <p>
+            フロントエンドエンジニアとして 3年の実務経験があり、主に Vue.js/Nuxt.js を得意としています。<br>
+            現在はプライベートで React でアプリを作成するなどしているため、Vue と React どちらでも対応可能です。
+          </p>
         </div>
         <div class="body__block">
           <div class="body__subtitle">Links</div>
