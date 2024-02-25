@@ -6,7 +6,7 @@
         <div class="body__subtitle">弁護士ドットコム株式会社 (CloudSign 開発事業部)</div>
         <img class="body__site-img" src="./images/cloudsign.png" alt="">
         <div class="body__text">
-          <p>Dec 2022 to Feb 2023</p>
+          <p>Dec 2022 to Feb 2024</p>
           <p class="body__text-skilled">JavaScript / Vue.js / Nuxt.js / TypeScript / Node.js / Jest / Vue Test Utils</p>
           <br>
           <p>
