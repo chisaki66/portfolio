@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <h1 class="title">App</h1>
+    <h1 class="title">Project</h1>
     <div class="body">
       <div class="body__block">
         <NuxtLink class="body__img-link" to="/stockchart">

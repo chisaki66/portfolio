@@ -9,4 +9,4 @@ This is my portfolio.
 Channels:
 - profile ・・・ 自己紹介文を掲載しています
 - career ・・・ これまでの経歴を掲載しています
-- app ・・・ 作成したアプリを掲載しています
+- project ・・・ 作成したアプリを掲載しています

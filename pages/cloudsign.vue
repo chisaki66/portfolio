@@ -35,7 +35,7 @@
         <p>https://www.cloudsign.jp/</p>
       </a>
       <div class="body__link">
-        <NuxtLink class="body__link-text" to="/app">Go Back</NuxtLink>
+        <NuxtLink class="body__link-text" to="/project">Go Back</NuxtLink>
       </div>      
     </div>
   </div>

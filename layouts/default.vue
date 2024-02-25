@@ -31,7 +31,7 @@
             <NuxtLink class="sidebar__text-link" to="/career">career</NuxtLink>
           </li>
           <li>
-            <NuxtLink class="sidebar__text-link" to="/app">app</NuxtLink>
+            <NuxtLink class="sidebar__text-link" to="/project">project</NuxtLink>
           </li>          
         </ul>
       </nav>
