@@ -2,7 +2,9 @@
   <div class="main">
     <h1 class="title">Retty</h1>
     <div class="body">
-      <img class="body__site-img" src="./images/retty.png" alt="">
+      <a class="body__site-link" href="https://retty.me/" target="_blank">
+        <img class="body__site-img" src="./images/retty.png" alt="">
+      </a>
       <div class="body__subtitle">Skilled</div>
       <p>JavaScript / Vue.js / Nuxt.js / TypeScript / Node.js / Jest / Vue Test Utils / PHP / GraphQL</p>
       <div class="body__subtitle">主な業務内容</div>
@@ -30,9 +32,12 @@
       <div class="body__subtitle">取り組みの成果</div>
       <p>私が入社してから今に至るまでに貢献したことの一つとして先延ばしにされていたNuxt.jsへの移行タスクの多くを消化したことやライブラリのアップグレード、小さなバグや開発者しか行えないコーポレートサイトの編集業務を受け持つことで開発チームの稼働率を向上させることに貢献しました。</p>
       <div class="body__subtitle">Link</div>
-        <a href="https://retty.me/" target="_blank">
-          <p>https://retty.me/</p>
-        </a>
+      <a href="https://retty.me/" target="_blank">
+        <p>https://retty.me/</p>
+      </a>
+      <div class="body__link">
+        <NuxtLink class="body__link-text" to="/app">Go Back</NuxtLink>
+      </div>      
     </div>
   </div>
 </template>
@@ -50,7 +55,12 @@
 }
 
 .body {
-  padding: 40px 0;
+  padding: 40px 0 80px;
+
+  &__site-link:hover {
+    opacity:0.5;
+	  transition:0.3s;
+  }  
 
   &__site-img {
     width: 700px;
@@ -69,6 +79,29 @@
 
   a {
     text-decoration: none;
+  }
+
+  &__link {
+    margin-top: 80px;
+  }
+
+  &__link-text {
+    text-decoration: none;
+    padding: 16px;
+    border: solid 2px #56b7d4;
+    color: #56b7d4;
+    border-radius: 8px;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all  0.6s ease;    
+  }
+
+  &__link-text:hover {
+    color: #F9F9F9;
+    text-shadow: 1px 1px 2px #00858d;
+    background-color: #42c9f3;
+    border: solid 2px #42c9f3;
   }
 }
 </style>

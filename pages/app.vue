@@ -3,6 +3,29 @@
     <h1 class="title">App</h1>
     <div class="body">
       <div class="body__block">
+        <NuxtLink class="body__img-link" to="/stockchart">
+          <img class="body__site-img" src="./images/stock-chart.png" alt="">
+        </NuxtLink>
+        <div class="body__block-right">
+          <div class="body__subtitle">StockChart<span class="body__block-hashtag"># personal</span></div>
+          <div class="body__skilled">JavaScript / React.js</div>
+          <p class="body__text">
+            検索した銘柄の株価の情報を取得する株価チャートの個人アプリです。<br>
+            指定した期間の株価情報をチャート形式で表示します。
+          </p>
+          <div class="body__app-links">
+            <a href="https://stock-chart-theta.vercel.app/" target="_blank">
+              Link
+            </a>
+            <br>
+            <a href="https://github.com/chisaki66/stock-chart" target="_blank">GitHub</a>
+          </div>
+          <div class="body__link">
+            <NuxtLink class="body__link-text" to="/stockchart">Find Out More</NuxtLink>
+          </div>
+        </div>
+      </div>
+      <div class="body__block">
         <NuxtLink class="body__img-link" to="/cloudsign">
           <img class="body__site-img" src="./images/cloudsign.png" alt="">
         </NuxtLink>
@@ -10,10 +33,8 @@
           <div class="body__subtitle">CloudSign<span class="body__block-hashtag"># company</span></div>
           <div class="body__skilled">JavaScript / Vue.js / Nuxt.js / TypeScript / Node.js / Jest / Vue Test Utils</div>
           <p class="body__text">
-            Vue 2.6 => Vue 2.7 => Vue 3.x にバージョンを上げるためのリファクタリング<br>
-            ESlint, Stylelint, Prettier のバージョンを上げるためのリファクタリング<br>
-            Moment.js  から data-fns に移行 (主に一人で担当)<br>
-            (その他の詳細は下記のリンクをクリックしてご覧ください)
+            弁護士ドットコム株式会社のフロントエンドエンジニアとして電子契約サービスの CloudSign の開発に従事していました。<br>
+            CloudSign は Web 完結型の契約締結クラウドアプリケーションで、契約締結の他に保管・管理に使用ができ、発注書・請書・納品書・検収書・ 請求書・領収書など、さまざまな対外的なやりとりに活用できるアプリです。
           </p>
           <div class="body__link">
             <NuxtLink class="body__link-text" to="/cloudsign">Find Out More</NuxtLink>
@@ -28,17 +49,14 @@
           <div class="body__subtitle">Retty<span class="body__block-hashtag"># company</span></div>
           <div class="body__skilled">JavaScript / Vue.js / Nuxt.js / TypeScript / Node.js / Jest / Vue Test Utils / PHP / GraphQL</div>
           <p class="body__text">
-            Vue.jsを用いた機能追加・編集<br>
-            TypeScriptを用いたNuxt.jsプロジェクトの経験や機能追加・編集<br>
-            Jestとvue-test-utilsを使ったユニットテストの追加・編集<br>
-            (その他の詳細は下記のリンクをクリックしてご覧ください)
+            Retty 株式会社のフロントエンドエンジニアとして主に Web アプリケーションとコーポレートサイトの開発業務に従事していました。<br>
+            Retty はユーザーの皆様の「オススメのお店」の情報が集まる実名型グルメサービスです。
           </p>
           <div class="body__link">
             <NuxtLink class="body__link-text" to="/retty">Find Out More</NuxtLink>
           </div>
         </div>
       </div>
-
     </div>
   </div>
 </template>
@@ -57,7 +75,7 @@
 }
 
 .body {
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 
   &__block {
     margin-top: 80px;
@@ -82,10 +100,10 @@
   }
   
   &__block-hashtag {
-    font-size: 14px;
     color: #F9F9F9;
     text-shadow: 1px 1px 2px #00858d;
     background-color: #42c9f3;
+    font-size: 14px;
     margin-left: 20px;
     padding: 6px;
     border-radius: 8px;
@@ -121,6 +139,14 @@
     text-shadow: 1px 1px 2px #00858d;
     background-color: #42c9f3;
     border: solid 2px #42c9f3;
-  }   
+  }
+
+  &__app-links {
+    margin-top: 10px;
+
+    a {
+      text-decoration: none;      
+    }
+  }
 }
 </style>
