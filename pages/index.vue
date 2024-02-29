@@ -2,7 +2,7 @@
   <div class="main">
     <h1 class="title">Profile</h1>
     <div class="body">
-      <img class="body__profile-img" src="./images/profile-pic.jpg">
+      <img class="body__profile-img" src="./images/profile-pic.jpg" />
       <div>
         <div class="body__block">
           <div class="body__subtitle">Name</div>
@@ -10,13 +10,18 @@
         </div>
         <div class="body__block">
           <div class="body__subtitle">Skilled</div>
-          <p>JavaScript / React.js / Vue.js / Nuxt.js / TypeScript / Node.js / Jest / Vue Test Utils / PHP / GraphQL / HTML5 / CSS3 and SASS</p>
-        </div>        
+          <p>
+            JavaScript / React.js / Vue.js / Nuxt.js / TypeScript / Node.js /
+            Jest / Vue Test Utils / PHP / GraphQL / HTML5 / CSS3 and SASS
+          </p>
+        </div>
         <div class="body__block">
           <div class="body__subtitle">Introduction</div>
           <p>
-            フロントエンドエンジニアとして 3年の実務経験があり、主に Vue.js/Nuxt.js を得意としています。<br>
-            現在はプライベートで React でアプリを作成するなどしているため、Vue と React どちらでも対応可能です。
+            フロントエンドエンジニアとして 3年の実務経験があり、主に
+            Vue.js/Nuxt.js を得意としています。<br />
+            現在はプライベートで React でアプリを作成するなどしているため、Vue
+            と React どちらでも対応可能です。
           </p>
         </div>
         <div class="body__block">
@@ -26,13 +31,19 @@
               <a href="https://github.com/chisaki66" target="_blank">GitHub</a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/chisaki-ibe-91494b239/" target="_blank">LinkedIn</a>
+              <a
+                href="https://www.linkedin.com/in/chisaki-ibe-91494b239/"
+                target="_blank"
+                >LinkedIn</a
+              >
             </li>
             <li>
-              <a href="https://www.wantedly.com/id/chisaki0606" target="_blank">Wantedly</a>
+              <a href="https://www.wantedly.com/id/chisaki0606" target="_blank"
+                >Wantedly</a
+              >
             </li>
           </ul>
-        </div>        
+        </div>
       </div>
     </div>
   </div>
@@ -65,15 +76,15 @@
     &--links {
       li {
         margin-top: 6px;
-        list-style: none; 
+        list-style: none;
       }
 
       a {
-        text-decoration: none;       
-      }      
+        text-decoration: none;
+      }
     }
   }
-  
+
   &__profile-img {
     width: 300px;
   }
