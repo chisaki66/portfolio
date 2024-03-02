@@ -16,11 +16,8 @@
       </p>
       <div class="body__subtitle">主な業務内容</div>
       <p>
-        Vue 2.6 => Vue 2.7 => Vue 3.x
-        にバージョンを上げるためのリファクタリング<br />
-        ESlint, Stylelint, Prettier
-        のバージョンを上げるためのリファクタリング<br />
-        Moment.js から data-fns に移行 (主に一人で担当)<br />
+        新規機能の実装<br />
+        Vue 2.x => Vue 3.x にバージョンを上げるための技術負債を解消<br />
         Options API から Composition API に移行<br />
         その他機能改善やバグの修正など複数担当
       </p>
@@ -39,9 +36,7 @@
       </p>
       <div class="body__subtitle">取り組みの成果</div>
       <p>
-        サービスの課題であった非推奨パッケージの移行や古いバージョンから最新版に上げることなどを幅広く行いました。<br />
-        そのため CloudSign
-        の開発に携わる他のエンジニアの方が集中して新規機能などの実装を行えるよう、安定して運用を支えることに貢献しました。
+        サービスの課題であった非推奨パッケージの移行や古いバージョンから最新版に上げて、過去に実装された不適切なコードをドキュメントに即した実装にリファクタリングをすることで保守性の向上に貢献しました。
       </p>
       <div class="body__subtitle">Link</div>
       <a href="https://www.cloudsign.jp/" target="_blank">

@@ -12,7 +12,7 @@
       </p>
       <div class="body__subtitle">主な業務内容</div>
       <p>
-        Vue.jsを用いた機能追加・編集<br />
+        Vue.jsを用いた新規機能の追加・編集<br />
         TypeScriptを用いたNuxt.jsプロジェクトの経験や機能追加・編集<br />
         Jestとvue-test-utilsを使ったユニットテストの追加・編集<br />
         サービス向上のためのUI改善<br />
