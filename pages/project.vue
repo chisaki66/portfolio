@@ -15,15 +15,25 @@
             検索した銘柄の株価の情報を取得する株価チャートの個人アプリです。<br />
             指定した期間の株価情報をチャート形式で表示します。
           </p>
-          <div class="body__app-links">
-            <a href="https://stock-chart-theta.vercel.app/" target="_blank">
-              Link
-            </a>
-            <br />
-            <a href="https://github.com/chisaki66/stock-chart" target="_blank"
-              >GitHub</a
-            >
-          </div>
+          <ul class="body__app-links">
+            <li>
+              <a
+                class="body__app-links--github"
+                href="https://github.com/chisaki66/stock-chart"
+                target="_blank"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                class="body__app-links--link"
+                href="https://stock-chart-theta.vercel.app/"
+                target="_blank"
+              >
+                SiteLink
+              </a>
+            </li>
+          </ul>
           <div class="body__link">
             <NuxtLink class="body__link-text" to="/stockchart"
               >Find Out More</NuxtLink
@@ -168,8 +178,34 @@
   &__app-links {
     margin-top: 10px;
 
+    li {
+      list-style: none;
+      margin-top: 10px;
+    }
+
     a {
       text-decoration: none;
+      color: #333333;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 34px;
+      background-position: left center;
+      background-repeat: no-repeat;
+    }
+
+    a:hover {
+      opacity: 0.5;
+      transition: 0.3s;
+    }
+
+    &--github {
+      background-size: 30px;
+      background-image: url(./images/github.png);
+    }
+
+    &--link {
+      background-size: 24px;
+      background-image: url(./images/link.png);
     }
   }
 }

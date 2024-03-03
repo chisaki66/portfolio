@@ -20,19 +20,40 @@
         指定した期間の株価情報をチャート形式で表示することが可能で、それ以外にも「始値」「高値」「安値」「終値」「出来高」の情報を表示できる仕様にしています。
       </p>
       <div class="body__subtitle">API</div>
-      <a href="https://marketstack.com/" target="_blank">
-        <p>marketstack</p>
-      </a>
+      <ul class="body__block-links">
+        <li>
+          <a
+            class="body__block-links--link"
+            href="https://marketstack.com/"
+            target="_blank"
+          >
+            marketstack
+          </a>
+        </li>
+      </ul>
       <div class="body__subtitle">Package</div>
       <p>Chart.js / react-chartjs-2 / date-fns / ESlint / Prettier</p>
       <div class="body__subtitle">Link</div>
-      <a href="https://stock-chart-theta.vercel.app/" target="_blank">
-        <p>https://stock-chart-theta.vercel.app/</p>
-      </a>
-      <div class="body__subtitle">GitHub</div>
-      <a href="https://github.com/chisaki66/stock-chart" target="_blank">
-        <p>https://github.com/chisaki66/stock-chart</p>
-      </a>
+      <ul class="body__block-links">
+        <li>
+          <a
+            class="body__block-links--github"
+            href="https://github.com/chisaki66/stock-chart"
+            target="_blank"
+          >
+            Github
+          </a>
+        </li>
+        <li>
+          <a
+            class="body__block-links--link"
+            href="https://stock-chart-theta.vercel.app/"
+            target="_blank"
+          >
+            SiteLink
+          </a>
+        </li>
+      </ul>
       <div class="body__link">
         <NuxtLink class="body__link-text" to="/project">Go Back</NuxtLink>
       </div>
@@ -75,8 +96,38 @@
     margin-top: 12px;
   }
 
-  a {
-    text-decoration: none;
+  &__block-links {
+    margin-top: 16px;
+
+    li {
+      list-style: none;
+      margin-top: 14px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #333333;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 34px;
+      background-position: left center;
+      background-repeat: no-repeat;
+    }
+
+    a:hover {
+      opacity: 0.5;
+      transition: 0.3s;
+    }
+
+    &--github {
+      background-size: 30px;
+      background-image: url(./images/github.png);
+    }
+
+    &--link {
+      background-size: 24px;
+      background-image: url(./images/link.png);
+    }
   }
 
   &__link {

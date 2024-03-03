@@ -20,7 +20,7 @@
           </p>
           <br />
           <a href="https://www.wantedly.com/id/chisaki0606" target="_blank"
-            >詳細な情報はこちら (Wantedly のページリンク)</a
+            >詳細な情報はこちら (Wantedly)</a
           >
         </div>
       </div>
@@ -40,7 +40,7 @@
           </p>
           <br />
           <a href="https://www.wantedly.com/id/chisaki0606" target="_blank"
-            >詳細な情報はこちら (Wantedly のページリンク)</a
+            >詳細な情報はこちら (Wantedly)</a
           >
         </div>
       </div>
@@ -85,6 +85,19 @@
 
     a {
       text-decoration: none;
+      color: #333333;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 34px;
+      background-size: 24px;
+      background-position: left center;
+      background-repeat: no-repeat;
+      background-image: url(./images/link.png);
+    }
+
+    a:hover {
+      opacity: 0.5;
+      transition: 0.3s;
     }
   }
 

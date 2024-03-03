@@ -26,19 +26,28 @@
         </div>
         <div class="body__block">
           <div class="body__subtitle">Links</div>
-          <ul class="body__block--links">
+          <ul class="body__block-links">
             <li>
-              <a href="https://github.com/chisaki66" target="_blank">GitHub</a>
+              <a
+                class="body__block-links--github"
+                href="https://github.com/chisaki66"
+                target="_blank"
+                >GitHub</a
+              >
             </li>
             <li>
               <a
+                class="body__block-links--linkedin"
                 href="https://www.linkedin.com/in/chisaki-ibe-91494b239/"
                 target="_blank"
                 >LinkedIn</a
               >
             </li>
             <li>
-              <a href="https://www.wantedly.com/id/chisaki0606" target="_blank"
+              <a
+                class="body__block-links--wantedly"
+                href="https://www.wantedly.com/id/chisaki0606"
+                target="_blank"
                 >Wantedly</a
               >
             </li>
@@ -72,16 +81,44 @@
     p {
       margin-top: 8px;
     }
+  }
 
-    &--links {
-      li {
-        margin-top: 6px;
-        list-style: none;
-      }
+  &__block-links {
+    margin-top: 16px;
 
-      a {
-        text-decoration: none;
-      }
+    li {
+      list-style: none;
+      margin-top: 14px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #333333;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 34px;
+      background-position: left center;
+      background-repeat: no-repeat;
+    }
+
+    a:hover {
+      opacity: 0.5;
+      transition: 0.3s;
+    }
+
+    &--github {
+      background-size: 30px;
+      background-image: url(./images/github.png);
+    }
+
+    &--linkedin {
+      background-size: 30px;
+      background-image: url(./images/linkedin.png);
+    }
+
+    &--wantedly {
+      background-size: 24px;
+      background-image: url(./images/link.png);
     }
   }
 
@@ -93,6 +130,10 @@
     padding-left: 0.5em;
     border-left: solid 4px #88d1e7;
     font-size: 20px;
+  }
+
+  &__icon {
+    width: 30px;
   }
 }
 </style>

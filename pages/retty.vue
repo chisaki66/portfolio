@@ -39,9 +39,17 @@
         私が入社してから今に至るまでに貢献したことの一つとして先延ばしにされていたNuxt.jsへの移行タスクの多くを消化したことやライブラリのアップグレード、小さなバグや開発者しか行えないコーポレートサイトの編集業務を受け持つことで開発チームの稼働率を向上させることに貢献しました。
       </p>
       <div class="body__subtitle">Link</div>
-      <a href="https://retty.me/" target="_blank">
-        <p>https://retty.me/</p>
-      </a>
+      <ul class="body__block-links">
+        <li>
+          <a
+            class="body__block-links--link"
+            href="https://retty.me/"
+            target="_blank"
+          >
+            SiteLink
+          </a>
+        </li>
+      </ul>
       <div class="body__link">
         <NuxtLink class="body__link-text" to="/project">Go Back</NuxtLink>
       </div>
@@ -84,8 +92,33 @@
     margin-top: 12px;
   }
 
-  a {
-    text-decoration: none;
+  &__block-links {
+    margin-top: 16px;
+
+    li {
+      list-style: none;
+      margin-top: 14px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #333333;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 34px;
+      background-position: left center;
+      background-repeat: no-repeat;
+    }
+
+    a:hover {
+      opacity: 0.5;
+      transition: 0.3s;
+    }
+
+    &--link {
+      background-size: 24px;
+      background-image: url(./images/link.png);
+    }
   }
 
   &__link {
