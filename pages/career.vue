@@ -8,7 +8,7 @@
         </div>
         <img class="body__site-img" src="./images/cloudsign.png" alt="" />
         <div class="body__text">
-          <p>Dec 2022 to Feb 2024</p>
+          <p class="body__text-period">Dec 2022 to Feb 2024</p>
           <p class="body__text-skilled">
             JavaScript / Vue.js / Nuxt.js / TypeScript / Node.js / Jest / Vue
             Test Utils
@@ -28,7 +28,7 @@
         <div class="body__subtitle">Retty Inc.</div>
         <img class="body__site-img" src="./images/retty.png" alt="" />
         <div class="body__text">
-          <p>Apr 2021 to Dec 2022</p>
+          <p class="body__text-period">Apr 2021 to Dec 2022</p>
           <p class="body__text-skilled">
             JavaScript / Vue.js / Nuxt.js / TypeScript / Node.js / Jest / Vue
             Test Utils / PHP / GraphQL
@@ -99,6 +99,16 @@
       opacity: 0.5;
       transition: 0.3s;
     }
+  }
+
+  &__text-period {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 34px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-image: url(./images/calendar.png);
   }
 
   &__text-skilled {
