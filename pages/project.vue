@@ -25,12 +25,9 @@
               >
             </li>
             <li>
-              <a
-                class="body__app-links--link"
-                href="https://stock-chart-theta.vercel.app/"
-                target="_blank"
-              >
-                SiteLink
+              <a class="body__app-links--link" target="_blank">
+                <strike>SiteLink</strike>
+                現在は非公開です
               </a>
             </li>
           </ul>

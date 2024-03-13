@@ -2,11 +2,7 @@
   <div class="main">
     <h1 class="title">StockChart</h1>
     <div class="body">
-      <a
-        class="body__site-link"
-        href="https://stock-chart-theta.vercel.app/"
-        target="_blank"
-      >
+      <a class="body__site-link" target="_blank">
         <img class="body__site-img" src="./images/stock-chart.png" alt="" />
       </a>
       <div class="body__subtitle">Skilled</div>
@@ -18,6 +14,22 @@
         Nasdaq, NYSE などを含む 70 の世界的な取引所から収集された 170,000
         以上の株価の情報を取得することが可能です。(東京証券取引所は含まれていません)<br />
         指定した期間の株価情報をチャート形式で表示することが可能で、それ以外にも「始値」「高値」「安値」「終値」「出来高」の情報を表示できる仕様にしています。
+      </p>
+      <img
+        class="body__detail-img"
+        src="./images/stock-chart-period.png"
+        alt=""
+      />
+      <p>
+        株価を表示する期間は「1日」「1週」「1ヶ月」「3ヶ月」「6ヶ月」「1年」「2年」「3年」で自由に変更することが可能です
+      </p>
+      <img
+        class="body__detail-img"
+        src="./images/stock-chart-error.png"
+        alt=""
+      />
+      <p>
+        もし存在しない銘柄や何も入力しない状態でリクエストをすると「株式データの取得に失敗しました」とエラーメッセージが表出する仕様になっています
       </p>
       <div class="body__subtitle">API</div>
       <ul class="body__block-links">
@@ -45,12 +57,9 @@
           </a>
         </li>
         <li>
-          <a
-            class="body__block-links--link"
-            href="https://stock-chart-theta.vercel.app/"
-            target="_blank"
-          >
-            SiteLink
+          <a class="body__block-links--link" target="_blank">
+            <strike>SiteLink</strike>
+            現在は非公開です
           </a>
         </li>
       </ul>
@@ -94,6 +103,11 @@
 
   p {
     margin-top: 12px;
+  }
+
+  &__detail-img {
+    width: 500px;
+    margin-top: 40px;
   }
 
   &__block-links {
