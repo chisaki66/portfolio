@@ -62,11 +62,11 @@
 }
 
 .body {
-  padding: 40px 0 60px;
+  padding-bottom: 60px;
   box-sizing: border-box;
 
   &__block {
-    margin-top: 30px;
+    margin-top: 60px;
   }
 
   &__subtitle {
