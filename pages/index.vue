@@ -81,7 +81,7 @@
   box-sizing: border-box;
 
   &__block {
-    margin-top: 30px;
+    margin-top: 40px;
 
     p {
       margin-top: 8px;
