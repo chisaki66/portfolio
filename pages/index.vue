@@ -12,8 +12,13 @@
           <div class="body__subtitle">Skilled</div>
           <p>
             JavaScript / React.js / Vue.js / Nuxt.js / TypeScript / Node.js /
-            Jest / Vue Test Utils / PHP / GraphQL / HTML5 / CSS3 and SASS
+            Jest / Vue Test Utils / PHP / GraphQL / Docker / Figma / HTML5 /
+            CSS3 and SASS
           </p>
+        </div>
+        <div class="body__block">
+          <div class="body__subtitle">Environment</div>
+          <p>GitHub / GitLab / Slack / JIRA / Confluence / esa / oVice</p>
         </div>
         <div class="body__block">
           <div class="body__subtitle">Introduction</div>
