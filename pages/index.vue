@@ -24,8 +24,9 @@
           <div class="body__subtitle">Introduction</div>
           <p>
             フロントエンドエンジニアとして Vue.js/Nuxt.js を中心とした
-            3年の実務経験がありますが、現在は個人プロジェクトで React.js と
-            React Native を使用したアプリを開発しています。
+            3年の実務経験があります。<br />
+            現在は個人プロジェクトで React.js と React Native
+            を使用したアプリを開発しています。
           </p>
         </div>
         <div class="body__block">

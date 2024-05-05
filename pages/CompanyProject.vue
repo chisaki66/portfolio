@@ -3,6 +3,28 @@
     <h1 class="title">Compamy Project</h1>
     <div class="body">
       <div class="body__block">
+        <NuxtLink class="body__img-link" to="/rarejob">
+          <img class="body__site-img" src="./images/rarejob.png" alt="" />
+        </NuxtLink>
+        <div class="body__block-right">
+          <div class="body__subtitle">
+            レアジョブ英会話<span class="body__block-hashtag"># company</span>
+          </div>
+          <div class="body__skilled">
+            JavaScript / Vue.js / Nuxt.js / TypeScript / Node.js
+          </div>
+          <p class="body__text">
+            株式会社レアジョブテクノロジーズのフロントエンドエンジニアとしてレアジョブ英会話の開発に従事しています。<br />
+            レアジョブ英会話はインターネットを使ったオンライン英会話サービスで、ホスピタリティ溢れるフィリピン人講師の高品質なレッスンを提供できるサービスです。
+          </p>
+          <div class="body__link">
+            <NuxtLink class="body__link-text" to="/rarejob"
+              >Find Out More</NuxtLink
+            >
+          </div>
+        </div>
+      </div>
+      <div class="body__block">
         <NuxtLink class="body__img-link" to="/cloudsign">
           <img class="body__site-img" src="./images/cloudsign.png" alt="" />
         </NuxtLink>

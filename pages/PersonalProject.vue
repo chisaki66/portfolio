@@ -3,6 +3,84 @@
     <h1 class="title">Personal Project</h1>
     <div class="body">
       <div class="body__block">
+        <NuxtLink class="body__img-link" to="/ShibaDesktopApp">
+          <img
+            class="body__site-img"
+            src="./images/shiba-desktop-app_1.png"
+            alt=""
+          />
+        </NuxtLink>
+        <div class="body__block-right">
+          <div class="body__subtitle">
+            しばっこ タスク管理アプリ<span class="body__block-hashtag"
+              ># personal</span
+            >
+          </div>
+          <div class="body__skilled">JavaScript / React.js / Electron</div>
+          <p class="body__text">
+            スマホアプリとデスクトップアプリで同期できる「しばっこ」というタスク管理アプリです。<br />
+            こちらはデスクトップ版です。
+          </p>
+          <ul class="body__app-links">
+            <li>
+              <a
+                class="body__app-links--github"
+                href="https://github.com/chisaki66/shiba-desktop-app"
+                target="_blank"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a class="body__app-links--link" target="_blank"> ※進行中 </a>
+            </li>
+          </ul>
+          <div class="body__link">
+            <NuxtLink class="body__link-text" to="/ShibaDesktopApp"
+              >Find Out More</NuxtLink
+            >
+          </div>
+        </div>
+      </div>
+      <div class="body__block">
+        <NuxtLink class="body__img-link" to="/ShibaMobileApp">
+          <img
+            class="body__site-img"
+            src="./images/shiba-mobile-app_1.jpg"
+            alt=""
+          />
+        </NuxtLink>
+        <div class="body__block-right">
+          <div class="body__subtitle">
+            しばっこ タスク管理アプリ<span class="body__block-hashtag"
+              ># personal</span
+            >
+          </div>
+          <div class="body__skilled">JavaScript / React Native / Expo</div>
+          <p class="body__text">
+            スマホアプリとデスクトップアプリで同期できる「しばっこ」というタスク管理アプリです。<br />
+            こちらはスマホ版です。
+          </p>
+          <ul class="body__app-links">
+            <li>
+              <a
+                class="body__app-links--github"
+                href="https://github.com/chisaki66/shiba-mobile-app"
+                target="_blank"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a class="body__app-links--link" target="_blank"> ※進行中 </a>
+            </li>
+          </ul>
+          <div class="body__link">
+            <NuxtLink class="body__link-text" to="/ShibaMobileApp"
+              >Find Out More</NuxtLink
+            >
+          </div>
+        </div>
+      </div>
+      <div class="body__block">
         <NuxtLink class="body__img-link" to="/stockchart">
           <img class="body__site-img" src="./images/stock-chart.png" alt="" />
         </NuxtLink>
