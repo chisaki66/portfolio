@@ -51,7 +51,9 @@
         </li>
       </ul>
       <div class="body__link">
-        <NuxtLink class="body__link-text" to="/project">Go Back</NuxtLink>
+        <NuxtLink class="body__link-text" to="/CompanyProject"
+          >Go Back</NuxtLink
+        >
       </div>
     </div>
   </div>

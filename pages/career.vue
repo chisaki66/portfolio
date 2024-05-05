@@ -3,6 +3,24 @@
     <h1 class="title">Career</h1>
     <div class="body">
       <div class="body__block">
+        <div class="body__subtitle">株式会社レアジョブテクノロジーズ</div>
+        <img class="body__site-img" src="./images/rarejob.png" alt="" />
+        <div class="body__text">
+          <p class="body__text-period">Apr 2024 to Now</p>
+          <p class="body__text-skilled">
+            JavaScript / Vue.js / Nuxt.js / TypeScript / Node.js
+          </p>
+          <br />
+          <p>
+            株式会社レアジョブテクノロジーズのフロントエンドエンジニアとしてオンライン英会話サービスの開発に従事しています。
+          </p>
+          <br />
+          <a href="https://www.wantedly.com/id/chisaki0606" target="_blank"
+            >詳細な情報はこちら (Wantedly)</a
+          >
+        </div>
+      </div>
+      <div class="body__block">
         <div class="body__subtitle">
           弁護士ドットコム株式会社 (CloudSign 開発事業部)
         </div>
@@ -25,7 +43,7 @@
         </div>
       </div>
       <div class="body__block">
-        <div class="body__subtitle">Retty Inc.</div>
+        <div class="body__subtitle">Retty 株式会社</div>
         <img class="body__site-img" src="./images/retty.png" alt="" />
         <div class="body__text">
           <p class="body__text-period">Apr 2021 to Dec 2022</p>

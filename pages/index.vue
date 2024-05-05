@@ -11,9 +11,9 @@
         <div class="body__block">
           <div class="body__subtitle">Skilled</div>
           <p>
-            JavaScript / React.js / Vue.js / Nuxt.js / TypeScript / Node.js /
-            Jest / Vue Test Utils / PHP / GraphQL / Docker / Figma / HTML5 /
-            CSS3 and SASS
+            JavaScript / React.js / React Native / Vue.js / Nuxt.js / TypeScript
+            / Node.js / Jest / Vue Test Utils / PHP / GraphQL / HTML5 / CSS3 and
+            SASS / Expo / Electron
           </p>
         </div>
         <div class="body__block">
@@ -23,10 +23,9 @@
         <div class="body__block">
           <div class="body__subtitle">Introduction</div>
           <p>
-            フロントエンドエンジニアとして 3年の実務経験があり、主に
-            Vue.js/Nuxt.js を得意としています。<br />
-            現在はプライベートで React でアプリを作成するなどしているため、Vue
-            と React どちらでも対応可能です。
+            フロントエンドエンジニアとして Vue.js/Nuxt.js を中心とした
+            3年の実務経験がありますが、現在は個人プロジェクトで React.js と
+            React Native を使用したアプリを開発しています。
           </p>
         </div>
         <div class="body__block">

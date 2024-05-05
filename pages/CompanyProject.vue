@@ -1,43 +1,7 @@
 <template>
   <div class="main">
-    <h1 class="title">Project</h1>
+    <h1 class="title">Compamy Project</h1>
     <div class="body">
-      <div class="body__block">
-        <NuxtLink class="body__img-link" to="/stockchart">
-          <img class="body__site-img" src="./images/stock-chart.png" alt="" />
-        </NuxtLink>
-        <div class="body__block-right">
-          <div class="body__subtitle">
-            StockChart<span class="body__block-hashtag"># personal</span>
-          </div>
-          <div class="body__skilled">JavaScript / React.js</div>
-          <p class="body__text">
-            検索した銘柄の株価の情報を取得する株価チャートの個人アプリです。<br />
-            指定した期間の株価情報をチャート形式で表示します。
-          </p>
-          <ul class="body__app-links">
-            <li>
-              <a
-                class="body__app-links--github"
-                href="https://github.com/chisaki66/stock-chart"
-                target="_blank"
-                >GitHub</a
-              >
-            </li>
-            <li>
-              <a class="body__app-links--link" target="_blank">
-                <strike>SiteLink</strike>
-                現在は非公開です
-              </a>
-            </li>
-          </ul>
-          <div class="body__link">
-            <NuxtLink class="body__link-text" to="/stockchart"
-              >Find Out More</NuxtLink
-            >
-          </div>
-        </div>
-      </div>
       <div class="body__block">
         <NuxtLink class="body__img-link" to="/cloudsign">
           <img class="body__site-img" src="./images/cloudsign.png" alt="" />

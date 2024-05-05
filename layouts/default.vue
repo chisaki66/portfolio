@@ -31,8 +31,11 @@
             <NuxtLink class="sidebar__text-link" to="/career">career</NuxtLink>
           </li>
           <li>
-            <NuxtLink class="sidebar__text-link" to="/project">project</NuxtLink>
-          </li>          
+            <NuxtLink class="sidebar__text-link sidebar__text-link--small" to="/CompanyProject">company pj</NuxtLink>
+          </li>
+          <li>
+            <NuxtLink class="sidebar__text-link sidebar__text-link--small" to="/PersonalProject">personal pj</NuxtLink>
+          </li>                      
         </ul>
       </nav>
     </div>
@@ -126,6 +129,10 @@
     padding: 0 40px;
     text-shadow: 1px 1px 2px #00858d;
     display: block;
+
+    &--small {
+      font-size: 18px;
+    }
   }
 }
 </style>
