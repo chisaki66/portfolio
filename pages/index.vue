@@ -18,15 +18,20 @@
         </div>
         <div class="body__block">
           <div class="body__subtitle">Environment</div>
-          <p>GitHub / GitLab / Slack / JIRA / Confluence / esa / oVice</p>
+          <p>
+            GitHub / GitLab / Slack / Chatwork / JIRA / Confluence / esa /
+            Discord / oVice
+          </p>
         </div>
         <div class="body__block">
           <div class="body__subtitle">Introduction</div>
           <p>
             フロントエンドエンジニアとして Vue.js/Nuxt.js を中心とした
             3年の実務経験があります。<br />
-            現在は個人プロジェクトで React.js と React Native
-            を使用したアプリを開発しています。
+            新規機能の開発からリファクタリングまで幅広く対応を行ってきた経験を活かして、現在は個人プロジェクトで
+            React.js と React Native を使用したアプリを開発しています。<br />
+            そのため Vue も React
+            も汎用的に使いこなし、様々なタスクをこなすことが可能です。
           </p>
         </div>
         <div class="body__block">
