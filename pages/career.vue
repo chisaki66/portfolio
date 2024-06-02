@@ -6,14 +6,14 @@
         <div class="body__subtitle">株式会社レアジョブテクノロジーズ</div>
         <img class="body__site-img" src="./images/rarejob.png" alt="" />
         <div class="body__text">
-          <p class="body__text-period">Apr 2024 to Now</p>
+          <p class="body__text-period">Apr 2024 to May 2024</p>
           <p class="body__text-skilled">
             JavaScript / Vue.js / Nuxt.js / TypeScript / Node.js
           </p>
           <br />
           <p>
-            株式会社レアジョブテクノロジーズのフロントエンドエンジニアとしてオンライン英会話サービスの開発に従事しています。<br />
-            ※プロジェクトの終了に伴い5月で契約満了の予定になります
+            株式会社レアジョブテクノロジーズのフロントエンドエンジニアとしてオンライン英会話サービスの開発に従事していました。<br />
+            ※プロジェクトの完了に伴い契約満了となりました
           </p>
           <br />
           <a href="https://www.wantedly.com/id/chisaki0606" target="_blank"
