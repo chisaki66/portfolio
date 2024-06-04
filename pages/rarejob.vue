@@ -10,7 +10,10 @@
         <img class="body__site-img" src="./images/rarejob.png" alt="" />
       </a>
       <div class="body__subtitle">Skilled</div>
-      <p>JavaScript / Vue.js / Nuxt.js / TypeScript / Node.js</p>
+      <p>
+        JavaScript / Vue.js / Nuxt.js / TypeScript / Node.js / Storybook /
+        Swagger
+      </p>
       <div class="body__subtitle">主な業務内容</div>
       <p>
         新規機能の実装<br />

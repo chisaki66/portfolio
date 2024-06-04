@@ -12,7 +12,7 @@
       <div class="body__subtitle">Skilled</div>
       <p>
         JavaScript / Vue.js / Nuxt.js / TypeScript / Node.js / Jest / Vue Test
-        Utils
+        Utils / Storybook
       </p>
       <div class="body__subtitle">主な業務内容</div>
       <p>

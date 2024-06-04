@@ -8,7 +8,8 @@
         <div class="body__text">
           <p class="body__text-period">Apr 2024 to May 2024</p>
           <p class="body__text-skilled">
-            JavaScript / Vue.js / Nuxt.js / TypeScript / Node.js
+            JavaScript / Vue.js / Nuxt.js / TypeScript / Node.js / Storybook /
+            Swagger
           </p>
           <br />
           <p>
@@ -30,7 +31,7 @@
           <p class="body__text-period">Dec 2022 to Feb 2024</p>
           <p class="body__text-skilled">
             JavaScript / Vue.js / Nuxt.js / TypeScript / Node.js / Jest / Vue
-            Test Utils
+            Test Utils / Storybook
           </p>
           <br />
           <p>
