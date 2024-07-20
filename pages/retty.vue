@@ -11,20 +11,33 @@
         Utils / PHP / GraphQL
       </p>
       <div class="body__subtitle">主な業務内容</div>
-      <p>
-        Vue.jsを用いた新規機能の追加・編集<br />
-        TypeScriptを用いたNuxt.jsプロジェクトの経験や機能追加・編集<br />
-        Jestとvue-test-utilsを使ったユニットテストの追加・編集<br />
-        サービス向上のためのUI改善<br />
-        サービスの改善や機能編集などの思索や提案(それに伴い自らIssueを作成し編集)<br />
-        外部APIから取得したデータを用いた実装<br />
-        PHPのコードをVue.jsに移行<br />
-        ESLintやStylelintなどのLintツールの導入<br />
-        ​​報告の上がったフロントエンドまわりのバグの修正<br />
-        PHPの機能追加<br />
-        リリース準備の検証<br />
-        バックエンドで実装したGraphQLのデータをフロントエンドに反映
-      </p>
+      <ul class="body__list">
+        <li class="body__list-title">Vue.jsを用いた新規機能の追加・編集</li>
+        <li class="body__list-title">
+          TypeScriptを用いたNuxt.jsプロジェクトの経験や機能追加・編集
+        </li>
+        <li class="body__list-title">
+          Jestとvue-test-utilsを使ったユニットテストの追加・編集
+        </li>
+        <li class="body__list-title">サービス向上のためのUI改善</li>
+        <li class="body__list-title">
+          サービスの改善や機能編集などの思索や提案
+          (それに伴い自らIssueを作成し編集)
+        </li>
+        <li class="body__list-title">外部APIから取得したデータを用いた実装</li>
+        <li class="body__list-title">PHPのコードをVue.jsに移行</li>
+        <li class="body__list-title">
+          ESLintやStylelintなどのLintツールの導入
+        </li>
+        <li class="body__list-title">
+          報告の上がったフロントエンドまわりのバグの修正
+        </li>
+        <li class="body__list-title">PHPの機能追加</li>
+        <li class="body__list-title">リリース準備の検証</li>
+        <li class="body__list-title">
+          バックエンドで実装したGraphQLのデータをフロントエンドに反映
+        </li>
+      </ul>
       <div class="body__subtitle">技術的なアプローチや工夫した点</div>
       <p>
         ただ形としてタスクをこなすだけでなく自分の実装の後に他の開発者が見て理解できるかバグが起きにくいか関数名などで役割が理解され易いかなど良質なコードを書くことを常に意識しておりました。登録店舗の情報によってはデータの扱いが変わってくるものなどもあり、それらがバグの原因となったりUIが崩れてしまうことがあるためコードを良く理解し、自分の実装が与える影響などを常に考えることを習慣としておりました。
@@ -88,6 +101,14 @@
     padding-left: 0.5em;
     border-left: solid 4px #88d1e7;
     font-size: 20px;
+  }
+
+  &__list {
+    margin-top: 10px;
+  }
+
+  &__list-title {
+    margin-left: 15px;
   }
 
   p {

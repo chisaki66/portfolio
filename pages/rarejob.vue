@@ -15,11 +15,23 @@
         Swagger
       </p>
       <div class="body__subtitle">主な業務内容</div>
-      <p>
-        新規機能の実装<br />
-        Vue 2.x => Vue 3.x にバージョンを上げるための技術負債を解消<br />
-        既存のChat Botのパッケージからスクラッチで開発するための設計と実装
-      </p>
+      <ul class="body__list">
+        <li class="body__list-title">
+          Vue 2.x => Vue 3.x にバージョンを上げるための技術負債を解消
+        </li>
+        <ul class="body__sublist">
+          <li>必要な対応の洗い出し</li>
+          <li>適切なリファクタリング</li>
+        </ul>
+        <li class="body__list-title">Chat Botの設計と実装</li>
+        <ul class="body__sublist">
+          <li>
+            Vue 3.x で既存のChat
+            Botのパッケージが使用できなかったため、スクラッチによる設計と実装の対応
+          </li>
+        </ul>
+        <li class="body__list-title">デグレなどの修正</li>
+      </ul>
       <div class="body__subtitle">技術的なアプローチや工夫した点</div>
       <p>
         新規に機能を追加する際に保守性やわかりやすさなどを特に意識しながら開発を行っていました。<br />
@@ -85,6 +97,18 @@
     padding-left: 0.5em;
     border-left: solid 4px #88d1e7;
     font-size: 20px;
+  }
+
+  &__list {
+    margin-top: 10px;
+  }
+
+  &__list-title {
+    margin-left: 15px;
+  }
+
+  &__sublist {
+    margin-left: 30px;
   }
 
   p {

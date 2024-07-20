@@ -15,12 +15,34 @@
         Utils / Storybook
       </p>
       <div class="body__subtitle">主な業務内容</div>
-      <p>
-        新規機能の実装<br />
-        Vue 2.x => Vue 3.x にバージョンを上げるための技術負債を解消<br />
-        Options API から Composition API に移行<br />
-        その他機能改善やバグの修正など複数担当
-      </p>
+      <ul class="body__list">
+        <li class="body__list-title">
+          Vue 2.x => Vue 3.x にバージョンを上げるための技術負債を解消
+        </li>
+        <ul class="body__sublist">
+          <li>必要な対応の洗い出し</li>
+          <li>チーム内で話し合い要件定義などを行う</li>
+          <li>適切なリファクタリング</li>
+          <li>ユニットテストの実装・編集</li>
+        </ul>
+        <li class="body__list-title">Moment.js => date-fns へ移行</li>
+        <ul class="body__sublist">
+          <li>Moment.js で実装された日付操作を全て date-fns へ移行</li>
+          <li>ユニットテストの実装・編集</li>
+        </ul>
+        <li class="body__list-title">
+          Options API から Composition API に移行
+        </li>
+        <ul class="body__sublist">
+          <li>移行に応じた技術負債の解消</li>
+          <li>ユニットテストの実装・編集</li>
+        </ul>
+        <li class="body__list-title">その他機能改善やバグの修正など複数担当</li>
+        <ul class="body__sublist">
+          <li>ユーザーの報告に対してデグレを解消</li>
+          <li>デザイナーと連携した UI/UX などの改善</li>
+        </ul>
+      </ul>
       <div class="body__subtitle">技術的なアプローチや工夫した点</div>
       <p>
         ライブラリのバージョンを上げることや非推奨パッケージから推奨パッケージに移行するタスクを行う中で意識したことは、他の方が見てもわかりやすく見通しの良いコードを実装することを特に意識しました。<br />
@@ -88,6 +110,18 @@
     padding-left: 0.5em;
     border-left: solid 4px #88d1e7;
     font-size: 20px;
+  }
+
+  &__list {
+    margin-top: 10px;
+  }
+
+  &__list-title {
+    margin-left: 15px;
+  }
+
+  &__sublist {
+    margin-left: 30px;
   }
 
   p {
