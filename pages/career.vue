@@ -6,7 +6,7 @@
         <div class="body__subtitle">株式会社レアジョブテクノロジーズ</div>
         <img class="body__site-img" src="./images/rarejob.png" alt="" />
         <div class="body__text">
-          <p class="body__text-period">Apr 2024 to May 2024</p>
+          <p class="body__text-period">Apr 2024 to May 2024 / 業務委託</p>
           <p class="body__text-skilled">
             JavaScript / Vue.js / Nuxt.js / TypeScript / Node.js / Storybook /
             Swagger
@@ -28,7 +28,7 @@
         </div>
         <img class="body__site-img" src="./images/cloudsign.png" alt="" />
         <div class="body__text">
-          <p class="body__text-period">Dec 2022 to Feb 2024</p>
+          <p class="body__text-period">Dec 2022 to Feb 2024 / 業務委託</p>
           <p class="body__text-skilled">
             JavaScript / Vue.js / Nuxt.js / TypeScript / Node.js / Jest / Vue
             Test Utils / Storybook
@@ -48,7 +48,7 @@
         <div class="body__subtitle">Retty 株式会社</div>
         <img class="body__site-img" src="./images/retty.png" alt="" />
         <div class="body__text">
-          <p class="body__text-period">Apr 2021 to Dec 2022</p>
+          <p class="body__text-period">Apr 2021 to Dec 2022 / アルバイト</p>
           <p class="body__text-skilled">
             JavaScript / Vue.js / Nuxt.js / TypeScript / Node.js / Jest / Vue
             Test Utils / PHP / GraphQL
@@ -56,7 +56,8 @@
           <br />
           <p>
             Retty 株式会社のフロントエンドエンジニアとして主に
-            日本最大級の実名型グルメサービス Retty の開発に従事していました。
+            日本最大級の実名型グルメサービス Retty の開発に従事していました。<br />
+            ※正社員以外の契約を更新しないという会社の方針により退職
           </p>
           <br />
           <a href="https://www.wantedly.com/id/chisaki0606" target="_blank"
