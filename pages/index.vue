@@ -45,14 +45,14 @@
                 >GitHub</a
               >
             </li>
-            <li>
+            <!-- <li>
               <a
                 class="body__block-links--linkedin"
                 href="https://www.linkedin.com/in/chisaki-ibe-91494b239/"
                 target="_blank"
                 >LinkedIn</a
               >
-            </li>
+            </li> -->
             <li>
               <a
                 class="body__block-links--wantedly"
