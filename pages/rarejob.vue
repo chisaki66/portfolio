@@ -32,6 +32,12 @@
         </ul>
         <li class="body__list-title">デグレなどの修正</li>
       </ul>
+      <br />
+      <img
+        class="body__site-img-small"
+        src="./images/rarejob-chat-bot.png"
+        alt=""
+      />
       <div class="body__subtitle">技術的なアプローチや工夫した点</div>
       <p>
         新規に機能を追加する際に保守性やわかりやすさなどを特に意識しながら開発を行っていました。<br />
@@ -90,6 +96,10 @@
 
   &__site-img {
     width: 700px;
+  }
+
+  &__site-img-small {
+    width: 600px;
   }
 
   &__subtitle {
