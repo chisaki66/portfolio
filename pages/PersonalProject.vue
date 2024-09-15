@@ -117,7 +117,9 @@
         </div>
       </div>
       <div class="body__block">
-        <img class="body__site-img" src="./images/allies.png" alt="" />
+        <NuxtLink class="body__img-link" to="/allies">
+          <img class="body__site-img" src="./images/allies_1.png" alt="" />
+        </NuxtLink>
         <div class="body__block-right">
           <div class="body__subtitle">
             Allies<span class="body__block-hashtag"># personal</span>
@@ -138,6 +140,11 @@
               >
             </li>
           </ul>
+          <div class="body__link">
+            <NuxtLink class="body__link-text" to="/allies"
+              >Find Out More</NuxtLink
+            >
+          </div>
         </div>
       </div>
     </div>
