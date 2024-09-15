@@ -76,6 +76,51 @@
           </div>
         </div>
       </div>
+      <div class="body__block">
+        <NuxtLink class="body__img-link" to="">
+          <img class="body__site-img" src="./images/retty-corp.png" alt="" />
+        </NuxtLink>
+        <div class="body__block-right">
+          <div class="body__subtitle">
+            Retty (corporate website)<span class="body__block-hashtag"
+              ># company</span
+            >
+          </div>
+          <div class="body__skilled">
+            JavaScript / Vue.js / Nuxt.js / TypeScript / Node.js / microCMS
+          </div>
+          <p class="body__text">
+            Retty
+            株式会社のコーポレートサイトの保守・運用を主に一人で担当していました。<br />
+            ニュースページにmicroCMSを導入する際はWEBデザイナーの方と連携して実装した経験があります。
+          </p>
+          <div class="body__link">
+            <NuxtLink class="body__link-text" to="/retty"
+              >Find Out More</NuxtLink
+            >
+          </div>
+        </div>
+      </div>
+      <div class="body__block">
+        <NuxtLink class="body__img-link" to="">
+          <img class="body__site-img" src="./images/retty-lp.png" alt="" />
+        </NuxtLink>
+        <div class="body__block-right">
+          <div class="body__subtitle">
+            Retty (LP制作)<span class="body__block-hashtag"># company</span>
+          </div>
+          <div class="body__skilled">HTML / CSS / Figma</div>
+          <p class="body__text">
+            Retty 株式会社の宣伝用にLPを作成しました。<br />
+            PCとスマホのレスポンシブに対応しています。
+          </p>
+          <div class="body__link">
+            <NuxtLink class="body__link-text" to="/retty"
+              >Find Out More</NuxtLink
+            >
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
