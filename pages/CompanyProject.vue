@@ -77,7 +77,7 @@
         </div>
       </div>
       <div class="body__block">
-        <NuxtLink class="body__img-link" to="">
+        <NuxtLink class="body__img-link" to="/RettyCorp">
           <img class="body__site-img" src="./images/retty-corp.png" alt="" />
         </NuxtLink>
         <div class="body__block-right">
@@ -95,27 +95,27 @@
             ニュースページにmicroCMSを導入する際はWEBデザイナーの方と連携して実装した経験があります。
           </p>
           <div class="body__link">
-            <NuxtLink class="body__link-text" to="/retty"
+            <NuxtLink class="body__link-text" to="/RettyCorp"
               >Find Out More</NuxtLink
             >
           </div>
         </div>
       </div>
       <div class="body__block">
-        <NuxtLink class="body__img-link" to="">
+        <NuxtLink class="body__img-link" to="/RettyLp">
           <img class="body__site-img" src="./images/retty-lp.png" alt="" />
         </NuxtLink>
         <div class="body__block-right">
           <div class="body__subtitle">
             Retty (LP制作)<span class="body__block-hashtag"># company</span>
           </div>
-          <div class="body__skilled">HTML / CSS / Figma</div>
+          <div class="body__skilled">HTML / CSS / SCSS / Figma</div>
           <p class="body__text">
             Retty 株式会社の宣伝用にLPを作成しました。<br />
             PCとスマホのレスポンシブに対応しています。
           </p>
           <div class="body__link">
-            <NuxtLink class="body__link-text" to="/retty"
+            <NuxtLink class="body__link-text" to="/RettyLp"
               >Find Out More</NuxtLink
             >
           </div>
