@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <h1 class="title">Compamy Project</h1>
+    <h1 class="title">Company Project</h1>
     <div class="body">
       <div class="body__block">
         <NuxtLink class="body__img-link" to="/rarejob">
