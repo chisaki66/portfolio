@@ -109,7 +109,7 @@
           <div class="body__subtitle">
             Retty (LP制作)<span class="body__block-hashtag"># company</span>
           </div>
-          <div class="body__skilled">HTML / CSS / SCSS / Figma</div>
+          <div class="body__skilled">HTML5 / CSS3 and SASS / Figma</div>
           <p class="body__text">
             Retty 株式会社の宣伝用にLPを作成しました。<br />
             PCとスマホのレスポンシブに対応しています。

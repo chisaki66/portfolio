@@ -10,7 +10,7 @@
         <img class="body__site-img" src="./images/retty-lp.png" alt="" />
       </a>
       <div class="body__subtitle">Skilled</div>
-      <p>HTML / CSS / SCSS / Figma</p>
+      <p>HTML5 / CSS3 and SASS / Figma</p>
       <div class="body__subtitle">主な業務内容</div>
       <ul class="body__list">
         <li class="body__list-title">
