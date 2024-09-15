@@ -116,6 +116,30 @@
           </div>
         </div>
       </div>
+      <div class="body__block">
+        <img class="body__site-img" src="./images/allies.png" alt="" />
+        <div class="body__block-right">
+          <div class="body__subtitle">
+            Allies<span class="body__block-hashtag"># personal</span>
+          </div>
+          <div class="body__skilled">Ruby / Ruby on Rails</div>
+          <p class="body__text">
+            <b>実務未経験</b
+            >のとき作成した性的マイノリティ向けのマッチングサイトです。<br />
+            複数の性別を指定することができます。
+          </p>
+          <ul class="body__app-links">
+            <li>
+              <a
+                class="body__app-links--github"
+                href="https://github.com/chisaki66/allies"
+                target="_blank"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </template>
