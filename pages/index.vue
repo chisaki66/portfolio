@@ -12,8 +12,9 @@
           <div class="body__subtitle">Skilled</div>
           <p>
             JavaScript / React.js / React Native / Vue.js / Nuxt.js / TypeScript
-            / Node.js / Jest / Vue Test Utils / PHP / GraphQL / Storybook /
-            Swagger / HTML5 / CSS3 and SASS / Expo / Electron
+            / Node.js / Vite / Jest / Vue Test Utils / PHP / Ruby / Ruby on
+            Rails / GraphQL / Storybook / Swagger / HTML5 / CSS3 and SASS / Expo
+            / Electron
           </p>
         </div>
         <div class="body__block">

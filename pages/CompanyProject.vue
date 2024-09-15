@@ -11,8 +11,8 @@
             レアジョブ英会話<span class="body__block-hashtag"># company</span>
           </div>
           <div class="body__skilled">
-            JavaScript / Vue.js / Nuxt.js / TypeScript / Node.js / Storybook /
-            Swagger
+            JavaScript / Vue.js / Nuxt.js / TypeScript / Node.js / Vite /
+            Storybook / Swagger
           </div>
           <p class="body__text">
             株式会社レアジョブテクノロジーズのフロントエンドエンジニアとしてレアジョブ英会話の開発に従事していました。<br />
@@ -34,8 +34,8 @@
             CloudSign<span class="body__block-hashtag"># company</span>
           </div>
           <div class="body__skilled">
-            JavaScript / Vue.js / Nuxt.js / TypeScript / Node.js / Jest / Vue
-            Test Utils / Storybook
+            JavaScript / Vue.js / Nuxt.js / TypeScript / Node.js / Vite / Jest /
+            Vue Test Utils / Storybook
           </div>
           <p class="body__text">
             弁護士ドットコム株式会社のフロントエンドエンジニアとして電子契約サービスの
