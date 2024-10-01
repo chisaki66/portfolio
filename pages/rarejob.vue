@@ -17,7 +17,7 @@
       <div class="body__subtitle">主な業務内容</div>
       <ul class="body__list">
         <li class="body__list-title">
-          Vue 2.x => Vue 3.x にバージョンを上げるための技術負債を解消
+          Vue 2.x => Vue 3.x にバージョンを上げるための対応
         </li>
         <ul class="body__sublist">
           <li>必要な対応の洗い出し</li>
